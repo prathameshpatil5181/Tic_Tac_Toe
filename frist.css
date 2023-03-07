@@ -1,0 +1,59 @@
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 7vw;
+}
+.container{
+    display: grid;
+    column-gap: 50px;
+  column-gap: 2vw;
+    
+}
+.start1{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    padding: 1vw;
+}
+img{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 26vw;
+    width: 24vw;
+
+  }
+button{
+    background: url("purpletored.jpg") ;
+    font-family: 'Itim', cursive;
+    background-size: cover;
+    color : white;
+    font-size: 1vw;
+    padding: 1vw 2vw 1vw 2vw;
+    border: none;
+    border-radius: 10vw;
+    text-align: center;
+}
+/* (A) WRONG ORIENTATION - SHOW MESSAGE HIDE CONTENT */
+@media only screen and (orientation:portrait) {
+    #turn { display:block;
+        font-family: 'Itim', cursive;
+        color: black;
+     }
+     .body{
+        background-image: none;
+     }
+    #container { display:none; }
+  }
+   
+  /* (B) CORRECT ORIENTATION - SHOW CONTENT HIDE MESSAGE */
+  @media only screen and (orientation:landscape) {
+    #turn { display:none; }
+    #container { display:block; }
+  }

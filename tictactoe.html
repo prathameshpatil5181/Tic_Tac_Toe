@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, blue" name="theme-color" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="background">
+  <div class="info">
+    <section class="players">
+      <div class="turn1">> Your Turn</div>
+      <div class="player1">
+        <div class="innercontainer">
+          <p class="identity1">Player 1</p>
+          <p class="identity3"></p>
+          <img src="cross_with_shadow.png" alt="" srcset="" class="cross_with_shadow" />
+        </div>
+      </div>
+    </section>
+    <section class="game">
+      <div class="gameContainer">
+        <div class="container">
+          <div class="box bt-0 bl-0  dbdradiustl"><span class="boxcontaint"></span></div>
+          <div class="box bt-0 bl-0"><span class="boxcontaint"></span></div>
+          <div class="box bt-0 bl-0 br-0 dbdradiustr"><span class="boxcontaint"></span></div>
+          <div class="box bt-0 bl-0"><span class="boxcontaint"></span></div>
+          <div class="box bt-0 bl-0"><span class="boxcontaint"></span></div>
+          <div class="box bt-0 bl-0 br-0"><span class="boxcontaint"></span> </div>
+          <div class="box bt-0 bl-0 bb-0 dbdradiusbl"><span class="boxcontaint"></span></div>
+          <div class="box bt-0 bl-0 bb-0"><span class="boxcontaint"></span></div>
+          <div class="box bt-0 bl-0 br-0 bb-0 dbdradiusbr"><span class="boxcontaint"></span></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="turn2">> Your Turn</div>
+      <div class="player1">
+        <div class="innercontainer">
+          <p class="identity1">Player 2</p>
+          <p class="identity4"></p>
+          <img src="circle.png" alt="" srcset="" class="cross_with_shadow" />
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="reset">
+    <button class="restbut" onclick="reset()">Reset</button>
+  </div>
+</div>
+  <div class="winner" id="">
+   <img id="image" class="">
+    <div class="winnername" id="winnerid">WIN</div>
+    <div class="reset">
+      <button class="repbut" onclick="replay()" id="button">Replay</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+
+body {
+  margin: auto;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.background{
+  position: relative;
+}
+
+.info {
+  margin-top: 7vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.players{
+  display: block;
+}
+.player1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: auto;
+}
+.innercontainer{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(145, 145, 145, .3);
+  height: 15vw;
+  width: 12vw;
+  /* margin: 35px 53px 49px 50px; */
+  border-radius: 4vw;
+}
+.identity1{
+  margin-top: 2vw;
+  color: white;
+  font-family: 'Itim', cursive;
+  font-size: 2vw;
+  text-align: center;
+}
+.identity2{
+  font-family: 'Itim', cursive;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.identity3{
+  font-family: 'Itim', cursive;
+  margin: auto;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}
+.identity4{
+  font-family: 'Itim', cursive;
+  margin: auto;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}
+.cross_with_shadow{
+    /* padding: 0px; */
+    height: 5vw;
+    width: 5vw;
+    margin: 0vw 0vw 1vw 3.5vw;
+}
+.back{
+  font-size: 1vw;
+  font-family: 'Itim', cursive;
+}
+.turn1{
+  margin: 4vw 3vw 0vw 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-family: 'Itim', cursive;
+  color: white;
+  font-size: 1.5vw;
+  visibility: visible;
+}
+.turn2{
+  margin: 4vw 3vw 0vw 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-family: 'Itim', cursive;
+  color: white;
+  font-size: 1.5vw;
+  visibility: hidden;
+}
+/* .gameContainer {
+  border-radius: 33px;
+  border: 3px dashed white;
+  padding: 2vw;
+  display: flex; */
+  /* flex-direction: column; */
+  /* margin: auto;
+} */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+  justify-content: center;
+}
+.box{
+  border : 3px dashed white;
+  background-size: contain;
+}
+.box:hover {
+  background-color: fuchsia;
+}
+.player2 {
+  color: white;
+  padding: 7vw;
+  border-radius: 2vw;
+  background-color: rgba(145, 145, 145, 0.5);
+  margin: auto;
+}
+.bt-0 {
+  border-top: 0px;
+}
+.bl-0 {
+  border-left: 0px;
+}
+.br-0 {
+  border-right: 0px;
+}
+.bb-0 {
+  border-bottom: 0px;
+}
+.dbdradiustl {
+  border-top-left-radius: 33px;
+}
+.dbdradiustr {
+  border-top-right-radius: 33px;
+}
+.dbdradiusbl {
+  border-bottom-left-radius: 33px;
+}
+.dbdradiusbr {
+  border-bottom-right-radius: 33px;
+}
+.reset{
+
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 1vw 1vw 1vw ;
+}
+.restbut{
+  background: url("purpletored.jpg") ;
+  font-family: 'Itim', cursive;
+  background-size: cover;
+  color : white;
+  font-size: 3vw;
+  padding: 1vw 5vw 1vw 5vw;
+  border: none;
+  border-radius: 10vw;
+  text-align: center;
+}
+.winnername{
+  font-family: 'Itim', cursive;
+  color: white;
+}
+
+.winner{
+  position: fixed;
+  top: 11vw;
+  left: 42vw;
+  transform: translate(1%, 1%);
+  font-size: 8vw;
+  visibility: hidden;
+}
+.active{
+visibility: visible;
+}
+.winnerimage{
+  width: 18vw;
+  margin-left: -3vh;
+}
+#image{
+  width: 12vw;
+  margin-left: 1vw;
+}
+.repbut{
+  background: url("purpletored.jpg") ;
+  font-family: 'Itim', cursive;
+  background-size: cover;
+  color : white;
+  font-size: 3vw;
+  padding: 1vw 5vw 1vw 5vw;
+  border: none;
+  border-radius: 10vw;
+  text-align: center;
+  margin-left: -3vw;
+}
+@media only screen and (orientation:portrait) {
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+    background-size:auto;
+  }
+}
+
+

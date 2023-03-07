@@ -1,0 +1,75 @@
+body{
+    display: inline;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 34vw);
+    justify-content: space-evenly;
+}
+.x{
+    display: grid;
+
+}
+.image{
+    height: 16vw;
+    width :16vw;
+    padding: 1vw;
+}
+.but{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.text{
+    text-align: center;
+    font-family: 'Itim', cursive;
+    color : white;
+    padding-top: 11vw;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+.y{
+    display: grid;
+ 
+    padding: 1vw;
+}
+.img2{
+    height: 16vw;
+    width :16vw;
+    padding-left: 8vw;
+}
+button{
+    background: url("purpletored.jpg") ;
+    font-family: 'Itim', cursive;
+    background-size: cover;
+    color : white;
+    font-size: 3vw;
+    padding: 1vw 5vw 1vw 5vw;
+    border: none;
+    border-radius: 10vw;
+    text-align: center;
+}
+#player1{
+    margin-left: 9vw;
+    height: 3vw;
+    width: 14vw;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    border: none;
+    border-radius: 1vw;
+}
+#player2{
+    margin-left: 9vw;
+    height: 3vw;
+    width: 14vw;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    border:  none;
+    border-radius: 1vw;
+}
